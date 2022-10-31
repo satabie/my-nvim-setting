@@ -22,6 +22,8 @@ Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/vim-lsp'
 call plug#end()
 
 " NERDTree SETTINGS
@@ -33,3 +35,10 @@ nmap <C-n> <Plug>AirlineSelectNextTab
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'dark'
 let g:airline_deus_bg = 'dark'
+
+" <TAB> completion
+inoremap <silent><expr> <TAB>
+\ pumvisible() ? '<C-n>' :
+\ (col('.') <= 1 <Bar><Bar> getline('.')[col('.') - 2] =~# '\s') ?
+\ '<TAB>' : ddc#map#manual_complete()
+
