@@ -1,4 +1,3 @@
-
 set encoding=utf8
 set tabstop=2
 set shiftwidth=2
@@ -22,8 +21,6 @@ Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'mattn/vim-lsp-settings'
-Plug 'prabirshrestha/vim-lsp'
 call plug#end()
 
 " NERDTree SETTINGS
