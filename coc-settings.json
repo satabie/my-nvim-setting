@@ -4,8 +4,11 @@
 	"diagnostic.checkCurrentLine": false,
 	"clangd.disableDiagnostics": true,
 	"clangd.disableProgressNotifications":true,
-	"clangd.disableSnippetCompletion": true,
+	"clangd.disableCompletion": true,
+
 	"pyright.disableDiagnostics": true,
 	"pyright.disableProgressNotifications": true,
-	"pyright.completion.snippetSupport": false
+	"pyright.completion.snippetSupport": false,
+	"pyright.inlayHints.variableTypes": false,
+	"pyright.disableDocumentation": true
 }
