@@ -15,12 +15,14 @@ autocmd TermOpen * startinsert
 
 " vim-plug
 call plug#begin('~/.config/nvim/plugged')
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 " NERDTree SETTINGS
@@ -40,11 +42,8 @@ function! s:check_back_space() abort
 endfunction
 
 " autocomplete
-inoremap <silent><expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : "\<C-j>"
-inoremap <silent><expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : "\<C-k>"
 inoremap <silent><expr> <Enter> coc#pum#visible() ? coc#pum#confirm() : "\<Enter>"
 inoremap <silent><expr> <Esc> coc#pum#visible() ? coc#pum#cancel() : "\<Esc>"
-inoremap <silent><expr> <C-h> coc#pum#visible() ? coc#pum#cancel() : "\<C-h>"
 
 " <Tab>で次、<S+Tab>で前
 inoremap <silent><expr> <TAB>
