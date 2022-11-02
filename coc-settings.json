@@ -1,9 +1,9 @@
 {
   "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
 	"diagnostic.virtualText": false,
-	"diagnostic.checkCurrentLine": true,
-	"clangd.disableDiagnostics": false,
-	"clangd.disableProgressNotifications":false,
-	"pyright.disableDiagnostics": false,
-	"pyright.disableProgressNotifications": false
+	"diagnostic.checkCurrentLine": false,
+	"clangd.disableDiagnostics": true,
+	"clangd.disableProgressNotifications":true,
+	"pyright.disableDiagnostics": true,
+	"pyright.disableProgressNotifications": true
 }
