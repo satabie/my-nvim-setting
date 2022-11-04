@@ -31,7 +31,6 @@ Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
-
 " NERDTree SETTINGS
 nmap <C-f> :NERDTreeToggle<CR>
 nmap <C-p> <Plug>AirlineSelectPrevTab
