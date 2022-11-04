@@ -23,7 +23,6 @@ Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'cohama/lexima.vim'
 
 call plug#end()
 
