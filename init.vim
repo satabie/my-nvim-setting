@@ -26,6 +26,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
+" molokai SETTINGS
+syntax on
+set t_Co=256
+colorscheme molokai
+
 " NERDTree SETTINGS
 nmap <C-f> :NERDTreeToggle<CR>
 nmap <C-p> <Plug>AirlineSelectPrevTab
@@ -61,3 +66,6 @@ if system('uname -a | grep microsoft') != ''
     autocmd TextYankPost * :call system('clip.exe', @")
   augroup END
 endif
+
+
+
