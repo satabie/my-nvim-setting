@@ -26,6 +26,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
+
 " NERDTree SETTINGS
 nmap <C-f> :NERDTreeToggle<CR>
 nmap <C-p> <Plug>AirlineSelectPrevTab
