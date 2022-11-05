@@ -1,8 +1,8 @@
 {
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
+	"clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
 	"diagnostic.virtualText": false,
 	"diagnostic.checkCurrentLine": false,
-	"clangd.disableProgressNotifications":true,
+	"clangd.disableProgressNotifications": true,
 	"clangd.disableSnippetCompletion": true,
 	"pyright.disableProgressNotifications": true,
 	"pyright.completion.snippetSupport": false,
