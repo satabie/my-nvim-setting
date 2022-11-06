@@ -6,5 +6,20 @@
 	"clangd.disableSnippetCompletion": true,
 	"pyright.disableProgressNotifications": true,
 	"pyright.completion.snippetSupport": false,
-	"pyright.inlayHints.variableTypes": false
+	"pyright.inlayHints.variableTypes": false,
+
+	"coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "markdown",
+    "typescriptreact",
+    "typescript",
+    "javascriptreact",
+    "javascript",
+    "json",
+    "graphql",
+		"c",
+		"cpp",
+		"python"
+  ]
 }
