@@ -1,14 +1,14 @@
 {
-	"clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
-	"diagnostic.virtualText": false,
-	"diagnostic.checkCurrentLine": false,
-	"clangd.disableProgressNotifications": true,
-	"clangd.disableSnippetCompletion": true,
-	"pyright.disableProgressNotifications": true,
-	"pyright.completion.snippetSupport": false,
-	"pyright.inlayHints.variableTypes": false,
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.3/clangd_15.0.3/bin/clangd",
+  "diagnostic.virtualText": false,
+  "diagnostic.checkCurrentLine": false,
+  "clangd.disableProgressNotifications": true,
+  "clangd.disableSnippetCompletion": true,
+  "pyright.disableProgressNotifications": true,
+  "pyright.completion.snippetSupport": false,
+  "pyright.inlayHints.variableTypes": false,
 
-	"coc.preferences.formatOnSaveFiletypes": [
+  "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "html",
     "markdown",
@@ -18,8 +18,8 @@
     "javascript",
     "json",
     "graphql",
-		"c",
-		"cpp",
-		"python"
+    "c",
+    "cpp",
+    "python"
   ]
 }
