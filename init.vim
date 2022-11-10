@@ -7,10 +7,10 @@ set tabstop=2
 set shiftwidth=2
 set number
 
-" mapping
+" esc->jj mapping
 inoremap jj <Esc>
-
-" terminal mode mapping
+cnoremap jj <Esc>
+vnoremap jj <Esc> 
 tnoremap jj <C-\><C-n>
 
 " Open Terminal below the current window
