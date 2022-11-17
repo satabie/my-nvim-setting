@@ -6,6 +6,7 @@ set encoding=utf8
 set tabstop=2
 set shiftwidth=2
 set number
+set scrolloff=999
 
 " esc->jj mapping
 inoremap jj <Esc>
