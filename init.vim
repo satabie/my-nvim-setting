@@ -60,13 +60,6 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<S-TAB>" " "\<C-h
 inoremap <silent><expr> <c-space> coc#refresh()
 
 " clipboard
-" if system('uname -a | grep microsoft') != ''
-"   augroup myYank
-"     autocmd!
-"     autocmd TextYankPost * :call system('clip.exe', @")
-"   augroup END
-" endif
-
 let g:clipboard = {
         \   'name': 'myClipboard',
         \   'copy': {
