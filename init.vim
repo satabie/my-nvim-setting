@@ -7,6 +7,7 @@ set tabstop=2
 set shiftwidth=2
 set number
 set scrolloff=999
+set clipboard=unnamed
 
 " esc->jj mapping
 inoremap jj <Esc>
@@ -59,9 +60,22 @@ inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<S-TAB>" " "\<C-h
 inoremap <silent><expr> <c-space> coc#refresh()
 
 " clipboard
-if system('uname -a | grep microsoft') != ''
-  augroup myYank
-    autocmd!
-    autocmd TextYankPost * :call system('clip.exe', @")
-  augroup END
-endif
+" if system('uname -a | grep microsoft') != ''
+"   augroup myYank
+"     autocmd!
+"     autocmd TextYankPost * :call system('clip.exe', @")
+"   augroup END
+" endif
+
+let g:clipboard = {
+        \   'name': 'myClipboard',
+        \   'copy': {
+        \      '+': 'win32yank.exe -i',
+        \      '*': 'win32yank.exe -i',
+        \    },
+        \   'paste': {
+        \      '+': 'win32yank.exe -o',
+        \      '*': 'win32yank.exe -o',
+        \   },
+        \   'cache_enabled': 1,
+        \ }

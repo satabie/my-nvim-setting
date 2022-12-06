@@ -7,7 +7,6 @@
   "pyright.disableProgressNotifications": true,
   "pyright.completion.snippetSupport": false,
   "pyright.inlayHints.variableTypes": false,
-
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "html",
