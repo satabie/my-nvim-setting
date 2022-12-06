@@ -19,6 +19,10 @@ command! -nargs=* T split | wincmd j | resize 20 | terminal <args>
 " Always open Terminal in insert mode
 autocmd TermOpen * startinsert
 
+" Dependency
+let g:loaded_perl_provider = 0
+let g:loaded_ruby_provider = 0
+let g:python3_host_prog = $PYENV_ROOT . '/shims/python3'
 " vim-plug
 call plug#begin('~/.config/nvim/plugged')
 
