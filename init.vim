@@ -23,6 +23,7 @@ autocmd TermOpen * startinsert
 let g:loaded_perl_provider = 0
 let g:loaded_ruby_provider = 0
 let g:python3_host_prog = $PYENV_ROOT . '/shims/python3'
+
 " vim-plug
 call plug#begin('~/.config/nvim/plugged')
 
